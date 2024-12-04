@@ -44,6 +44,14 @@ for (let i=0; i < 1;){
     }
 }
 
+/* also while can work
+while (let i = 0){
+    if (){
+    i = 1
+    }
+}
+*/
+
 
 const results = sum(userInput[1], randomizer())
 
