@@ -45,9 +45,10 @@ for (let i=0; i < 1;){
 }
 
 /* also while can work
-while (let i = 0){
+let i = 0;
+while (i = 0){
     if (){
-    i = 1
+    i = 1;
     }
 }
 */
@@ -62,4 +63,3 @@ if (isDraw(results) && userInput[0] === "pari"){
 } else {
     alert(`Grandioso! Hai Perso! il risultato è di` + " " + results + " " + "fossi in te io ci riproverei");
 }
-
